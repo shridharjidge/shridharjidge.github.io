@@ -7333,7 +7333,7 @@ h1, h2, h3, h4, h5,
   bottom: 0;
   top: 0;
   left: 0;
-  overflow-y: scroll;
+  overflow-y: none;
   z-index: 1001;
   background: rgba(0, 0, 0, 0.04);
   -moz-transition: all 0.5s ease;

@@ -26,31 +26,43 @@
     <link rel="stylesheet" href="../css/flaticon.css">
     <link rel="stylesheet" href="../css/icomoon.css">
     <link rel="stylesheet" href="../css/style.css">
+
   </head>
-  <body style="background-color:powderblue;color:red">
+  <body style="background-color:powderblue;color: grey">
+
+  	<nav class="navbar navbar-dark bg-dark" style="z-index: 10">
+      <a class="navbar-brand" href="../blog/blog1.html">Blog</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../resume/index.html">Education</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../blog/blog1.html">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
 	<div id="myClass-page">
 		<a href="#" class="js-myClass-nav-toggle myClass-nav-toggle"><i></i></a>
-		<aside id="myClass-aside" role="complementary" class="js-fullheight text-center">
-			<h1 id="myClass-logo"><a href="../index.html"><span></span></a></h1>
-			<nav id="myClass-main-menu" role="navigation">
-				<ul>
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="../resume/index.html">Education</a></li>
-					
-					<li><a href="../blog/blog1.html">Blog</a></li>
-					
-					<li><a href="../contact.html">Contact</a></li>
-					
-				</ul>
-			</nav>
-
-			<div class="myClass-footer">
-				<p>
-				Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that. 
+		<aside id="myClass-aside" role="complementary" style="z-index: 1;background-image: url(../images/bg.jpg);" class="js-fullheight text-center">
+			<div class="myClass-footer" >
+				<p style="font-weight: 900">
+				Darkness cannot drive out darkness only light can do that. Hate cannot drive out hate: only love can do that. 
 				</p>
-				
 			</div>
+		</aside>
 		</aside>
 		<div id="myClass-main">
 			<section class="ftco-section">
@@ -59,87 +71,24 @@
 						<div class="ftco-animate col-md-8 offset-md-2">
 							<h1 class="display-2 font-weight-bold">Nature Photography</h1>
 
-							<p>In today's era it is not wrong to say that mobiles have become the inseparable part of our lives. 
-								And what makes the mobile phones so great is the vast amount of applications and games available for them. 
-								There are numerous ways available for one to make an application. Mainly the apps are divided as native apps and hybrid apps. 
-								The problem with the native approach i.e. app development using Android studio for android and using Xcode for ios 
-								is that they have to rewrite whole application for each platform separately and maintain them while the problem with hybrid apps is 
-								its performance. Here React native comes into the picture.
+							<p>Nature is beautiful and if you are able to capture that beauty through your camera, well, isn’t that a treat. For obvious reasons, nature and wildlife photography can be very appealing, I mean who wouldn’t want to claim to have clicked the Northern Lights? A wild world full of surprises and phenomena – it takes a lot of experience to be able to get accustomed to the surroundings and take pictures you’ll remember forever.
 								</p>
 							<p>
 								<img src="../images/rlogo.jpg" alt="" class="img-fluid">
 							</p>
-							<p>Before diving into React Native let's understand first what is React JS.</p>
-							<h2 class="mb-3 mt-5 font-weight-bold">What is React JS</h2>
-							<p>React JS is a javascript library that is used to develop User Interfaces. 
-								The common misconception about React JS is that it takes our JSX code and renders it on the browser. 
-								It is wrong actually! The React JS is platform-independent it can be used to render anything. 
-								The main use of React JS to build a tree, a component tree. 
-								There is another library the ReactDOM library which takes all of our code and converts it into the HTML tree 
-								as we can see on the browser.</p>
+							<h2 class="mb-3 mt-5 font-weight-bold">Abstract</h2>
+							<p>I am always on the lookout for images I can use to help illustrate concepts in our video tutorials and workshops for nature photography. No matter what I’m shooting, I’m thinking about how I can help a student learn the skills I’m using in that moment. If I’m working with difficult light, I might take a series of shots to show how I use a graduated neutral density filter. If I’m working with a circular polarizer filter, I’ll take an extra shot to show the difference between a shot taken with a polarizer and without. I might even shoot a few seconds of video if I feel it will help illustrate a point for my students.</p>
+
+							<h2 class="mb-3 mt-5 font-weight-bold">Exploring Unknown Landscape Photography Location</h2>
 							<p>
-								<img src="../images/React.png" alt="" class="img-fluid">
-							</p>
-							<p>Another important concept about React JS is its components. 
-								The whole application or website built with React JS is build using reusable components. 
-								This could save a lot of code and time too!</p>
-							<h2 class="mb-3 mt-5 font-weight-bold">What is React Native</h2>
-							<p>
-								Like ReactDOM which renders the HTML components on the DOM, React Native also uses the React JS 
-								to render the platform-specific components (Widgets) on the mobile screen. 
-								<br>
-								For eg. The React Native code for Button will be,
-								<br>
-								export default function test {
-								<br>
-								&nbsp;return (
-								<br>
-								&nbsp;&nbsp;&lt;View&gt;
-								<br>
-								&nbsp;&nbsp;&nbsp;&lt;Button title = "Click" /&gt;
-								<br>
-								&nbsp;&nbsp;&lt;/View&gt;
-								<br>
-								&nbsp;)
-								<br>
-								}
-								<br>
+								Now, if you are a more adventurous landscape photographer then you will likely find yourself exploring the unknown landscapes. I am going to break this down into two separate categories like before. Globally unknown and locally unknown.
+
+Let’s start with locally unknown. In places where there are vast wilderness areas it is easy to venture into a location you may have never seen before. This location also might be incredibly close to home. I live right up against the Superstition Wilderness boundary in Arizona. While I have explored many of the trails and backcountry areas in this region, there is still plenty of unknown landscape to me. However, I have explored and photographed areas that even locals don’t recognize.
 								
 							</p>
-							<p>It looks similar to JSX and looks like it uses HTML elements but that is not the case here. 
-								The View is not an HTML element. React Native provides a set of different elements which then 
-								compiled into platform-specific widgets. Now this sentence defines the important property of React 
-								Native that it compiles the components into "Native Widgets". Why is it important? As we discussed 
-								above the Hybrid app have the Pros of writing code ones and run it on multiple platforms. One such 
-								framework to build a hybrid app is Ionic, but the problem is the bridge technology that converts a 
-								web app into an android or ios app is Cordova, it just wraps the web app into android or ios app. 
-								As the complexity of the app rises the performance of the application decreases. But, React Native 
-								compiles the UI into Native widgets, thus performing like a native application. Now, it is very important 
-								to remember the logic of our app the Javascript code will not be compiled instead React Native will provide 
-								a VM to run the Javascript code and that thread is attached to our application. But the heavy task of 
-								rendering UI is done natively. Also we have to write all the logic once and then we can use it on various 
-								platforms. It drastically saves time if we go by the Native development approach.
-							</p>
-							<h2 class="mb-3 mt-5 font-weight-bold">Pros of React Native</h2>
-							<p class="h4">Cross-Platform</p>
-							<p>React Native is supported cross-platform. 
-								The new versions of React Native will also support the TV OS. 
-								If we want to write only one code base for our application then React Native is the way to go.</p>
-							<p class="h4">Performance</p>
-							<p>React Native will give Native like performance in spite of the complexity of the application.</p>
-							<p class="h4">Support</p>
-							<p>React Native is used and backed by a tech giant like Facebook, so it is not going anywhere in the near future.</p>
-							<h2 class="mb-3 mt-5 font-weight-bold">Cons of React Native</h2>
-							<p class="h4">Buggy, Frequent Updates</p>
-							<p>The React Native is still buggy, updates frequently so we have to update our code also time to time. 
-								The breaking changes occur every 6 months or so.</p>
-							<p class="h4">Manual Work</p>
-							<p>The manual work in React Native is more. 
-								The number of components provided by the React Native is very less. 
-								It provides around 10-15 components while Ionic provides around 40-45 components out of the box and with styling. 
-								Another problem of React Native is we have to heavily stylize our components. 
-								We have to make our own components with the help of provided basic components and for a simple application it is not efficient.</p>
-				
+
+							<p>Now, it’s important to realize that these familiar iconic landscape photography locations can come at a price. The more familiar the location, the greater the possibility of more crowds. If you are not a fan of crowds, or hoping to have a location all to yourself, then you may need to expand your explorations to lesser known areas. Because these locations can be popular amongst other landscape photographers, I often suggest pushing yourself to create a unique image from these places, if possible.</p>
+											
 						   </div>
 					</div>
 	    		</div>
